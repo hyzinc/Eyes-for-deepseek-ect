@@ -1,0 +1,4 @@
+interface:
+  display_name: "文本模型视觉"
+  short_description: "为纯文本模型（DeepSeek 标准）提供图像视觉能力，不依赖 GLM 或多模态 API"
+  default_prompt: "使用 $text-model-vision 分析这张图片，只依据转录证据推理"
