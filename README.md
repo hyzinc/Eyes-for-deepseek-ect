@@ -2,6 +2,11 @@
 
 让纯文本大模型（以 DeepSeek 为标准）获得图像视觉能力，全程不调用 GLM 或其他视觉/多模态 API。核心思路是把图片先本地转成结构化文本转录，再让纯文本模型基于转录进行推理。
 ## 自动安装提示词：帮我安装这个skill：https://github.com/hyzinc/Eyes-for-deepseek-ect
+安装后直接说：
+
+```text
+使用 text-model-vision 分析这张图片：<图片路径>
+```
 
 ## 特性
 
@@ -111,11 +116,7 @@ python scripts/analyze_with_deepseek.py examples/demo-image.png --dry-run
 └── scripts/img2txt.py
 ```
 
-安装后直接说：
 
-```text
-使用 text-model-vision 分析这张图片：<图片路径>
-```
 
 ## 测试
 
